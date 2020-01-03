@@ -47,6 +47,7 @@ def reduce_to_all_true(source_array)
     pp source_array
   while source_array[i] do
     if source_array[i] then result = false end
+      p i
     i += 1
 end
 return result
@@ -57,6 +58,7 @@ def reduce_to_any_true(source_array)
     pp source_array
     result = false
   while source_array[i] do
+    p i
     if source_array[i] then result = true end
     i += 1
 end
