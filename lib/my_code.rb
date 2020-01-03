@@ -43,14 +43,13 @@ end
 
 def reduce_to_all_true(source_array)
     i=0
-    result=true
     pp source_array
   while source_array[i] do
     if source_array[i] then return false end
-      p i
+      pp [source_array, i]
     i += 1
 end
-return result
+return true
 end
 
 def reduce_to_any_true(source_array)
