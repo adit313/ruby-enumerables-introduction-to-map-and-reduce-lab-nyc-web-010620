@@ -21,7 +21,7 @@ end
 return source_array
 end
 
-def map_to_double(source_array)
+def map_to_square(source_array)
     i=0 
   while source_array[i] do
     source_array[i] = source_array[i]**2
