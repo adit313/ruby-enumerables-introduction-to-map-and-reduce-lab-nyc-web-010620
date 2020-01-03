@@ -30,7 +30,7 @@ end
 return source_array
 end
 
-def reduce_to_total(source_array, starting_point)
+def reduce_to_total(source_array, starting_point = 0)
     i=starting_point 
     total = 0
   while source_array[i] do
