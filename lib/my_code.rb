@@ -46,20 +46,21 @@ def reduce_to_all_true(source_array)
     result=true
     pp source_array
   while source_array[i] do
-    return false unless source_array[i]
+    result = false unless source_array[i]
     i += 1
 end
-return true
+return result
 end
 
 def reduce_to_any_true(source_array)
     i=0
     pp source_array
+    result = false
   while source_array[i] do
-    return true unless source_array[i]
+    result = true unless source_array[i]
     i += 1
 end
-return false
+return result
 end
 
 
