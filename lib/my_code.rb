@@ -44,7 +44,7 @@ end
 def reduce_to_all_true(source_array)
     i=0
   while source_array[i] do
-    return false if !source_array[i]
+    return false if source_array[i] == false
     i += 1
 end
 return true
