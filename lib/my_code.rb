@@ -53,7 +53,7 @@ end
 return result
 end
 
-def reduce_to_any_false(source_array)
+def reduce_to_any_true(source_array)
     i=0
     pp source_array
     result = false
